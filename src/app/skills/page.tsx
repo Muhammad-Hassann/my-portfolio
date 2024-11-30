@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -60,9 +60,7 @@ const skillData = [
 
 const SkillsPage = () => {
   return (
-    <div
-      className="relative pt-28 lg:pt-36 p-8 md:p-16  w-full h-screen bg-primary/30 text-white overflow-hidden"
-    >
+    <div className="relative pt-28 lg:pt-36 p-8 md:p-16  w-full h-screen bg-primary/30 text-white overflow-hidden">
       {/* Background Animation */}
       <div className="absolute inset-0">
         <motion.div
@@ -82,11 +80,12 @@ const SkillsPage = () => {
         {/* Title */}
         <div className="text-center mb-2 lg:mb-8">
           <h1 className="text-4xl lg:text-5xl font-bold">
-            Skills and Expertise<span className="text-accent">.</span>
+            Skills and Expertise<span className="text-accent">&#46;</span>
           </h1>
           <p className="hidden lg:block text-lg mt-4 max-w-[600px]">
-            I'm a passionate developer with expertise in frontend technologies,
-            animations, and modern tools. Here's a quick glance at my skill set.
+            I&#39;m a passionate developer with expertise in frontend
+            technologies&#44; animations&#44; and modern tools&#46; Here&#39;s a
+            quick glance at my skill set&#46;
           </p>
         </div>
 

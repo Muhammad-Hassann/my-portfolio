@@ -13,7 +13,7 @@ const Socials = () => {
       <a href='https://github.com/Muhammad-Hassann' target='_blank' className="hover:text-accent transition-all duration-300">
         <RiGithubLine />
       </a>
-      <a href='https://www.aedin.com/in/muhammad-hassan-245iu/' target='_blank' className="hover:text-accent transition-all duration-300">
+      <a href='https://www.linkedin.com/in/muhammad-hassan-245iu/' target='_blank' className="hover:text-accent transition-all duration-300">
         <RiLinkedinLine />
       </a>
       <a href='https://www.facebook.com/profile.php?id=61569691864050' target='_blank' className="hover:text-accent transition-all duration-300">

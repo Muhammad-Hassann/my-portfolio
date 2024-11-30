@@ -47,9 +47,10 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10  text-lg text-gray-300 mt-4"
           >
-            Crafting interactive, responsive web experiences is my passion. With
-            expertise in React, Next.js, and Tailwind CSS, I merge creativity
-            and technology to design interfaces that feel intuitive and modern.
+            Crafting interactive&#44; responsive web experiences is my passion. With 
+            expertise in React&#44; Next&#46;js&#44; and Tailwind CSS&#44; I merge creativity
+            and technology to design interfaces that feel intuitive and modern&#46;
+
           </motion.p>
           <motion.div
             variants={fadeIn("down", 0.4)}
