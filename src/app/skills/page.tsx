@@ -102,8 +102,6 @@ const SkillsPage = () => {
                 <img
                   src={skill.imageLink}
                   alt={skill.skillName}
-                  width={12}
-                  height={12}
                   className="w-8 h-8 lg:w-12 lg:h-12 mb-2 mx-auto"
                 />
                 <div className="text-md lg:text-xl text-center font-semibold capitalize">
