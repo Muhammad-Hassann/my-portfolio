@@ -16,7 +16,7 @@ const Home = () => {
         <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
           <div className="flex flex-col">
             {/* Top small text */}
-            <h2 className="text-xl tracking-wide">Hello I'm</h2>
+            <h2 className="text-xl tracking-wide">Hello I&apos;m</h2>
 
             {/* Name */}
             <h1 className="text-4xl md:text-6xl font-bold">Muhammad Hassan</h1>
@@ -25,13 +25,13 @@ const Home = () => {
             <div className="mt-4 text-2xl md:text-4xl text-accent relative overflow-hidden">
               <TypeAnimation
                 sequence={[
-                  "And I'm a Web Developer",
+                  "And I&apos;m a Web Developer",
                   1000,
-                  "And I'm a Frontend Developer",
+                  "And I&apos;m a Frontend Developer",
                   1000,
-                  "And I'm a UI/UX Enthausiast",
+                  "And I&apos;m a UI/UX Enthausiast",
                   1000,
-                  "And I'm Exploring Generative AI",
+                  "And I&apos;m Exploring Generative AI",
                   1000,
                 ]}
                 wrapper="span"

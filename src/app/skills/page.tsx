@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const skillData = [
   {
@@ -98,9 +99,11 @@ const SkillsPage = () => {
             >
               {/* Skill Content */}
               <div className="z-10 group-hover:opacity-0 transition-opacity duration-300">
-                <img
+                <Image
                   src={skill.imageLink}
                   alt={skill.skillName}
+                  width={12}
+                  height={12}
                   className="w-8 h-8 lg:w-12 lg:h-12 mb-2 mx-auto"
                 />
                 <div className="text-md lg:text-xl text-center font-semibold capitalize">
@@ -124,23 +127,6 @@ const SkillsPage = () => {
             </div>
           ))}
         </div>
-
-        {/* Achievements Section */}
-        {/* <div className="absolute bottom-16 left-8 text-white">
-          <p className="text-lg">
-            Years of Experience: <span className="font-bold">3+</span>
-          </p>
-          <p className="text-lg">
-            Projects Completed: <span className="font-bold">15+</span>
-          </p>
-        </div>
-
-        <a
-          href="/contact"
-          className="absolute bottom-16 right-8 px-6 py-3 bg-accent rounded-full text-white hover:bg-transparent border border-white transition-all"
-        >
-          Hire Me
-        </a> */}
       </div>
     </div>
   );
