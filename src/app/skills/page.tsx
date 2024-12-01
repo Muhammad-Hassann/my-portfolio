@@ -99,7 +99,7 @@ const SkillsPage = () => {
             >
               {/* Skill Content */}
               <div className="z-10 group-hover:opacity-0 transition-opacity duration-300">
-                <Image
+                <img
                   src={skill.imageLink}
                   alt={skill.skillName}
                   width={12}

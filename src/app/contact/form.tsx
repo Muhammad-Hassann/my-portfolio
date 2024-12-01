@@ -62,14 +62,14 @@ const ContactForm: React.FC = () => {
       !formData.subject ||
       !formData.message
     ) {
-      setError("Please fill in all fields&#46;");
+      setError("Please fill in all fields!");
       setSuccess("");
       return;
     }
 
     // Validate email format
     if (!validateEmail(formData.email)) {
-      setError("Please enter a valid email address&#46;");
+      setError("Please enter a valid email address!");
       setSuccess("");
       return;
     }
@@ -88,7 +88,7 @@ const ContactForm: React.FC = () => {
         userId
       );
 
-      setSuccess("Your message has been sent successfully&#33;");
+      setSuccess("Your message has been sent successfully!");
       setError("");
       setFormData({
         name: "",
@@ -97,7 +97,7 @@ const ContactForm: React.FC = () => {
         message: "",
       });
     } catch (err) {
-      setError("Failed to send your message&#46; Please try again&#46;");
+      setError("Failed to send your message! Please try again!");
       setSuccess("");
       console.error("EmailJS Error:", err);
     }

@@ -25,13 +25,13 @@ const Home = () => {
             <div className="mt-4 text-2xl md:text-4xl text-accent relative overflow-hidden">
               <TypeAnimation
                 sequence={[
-                  "And I&apos;m a Web Developer",
+                  "And I'm a Web Developer",
                   1000,
-                  "And I&apos;m a Frontend Developer",
+                  "And I'm a Frontend Developer",
                   1000,
-                  "And I&apos;m a UI/UX Enthausiast",
+                  "And I'm a UI/UX Enthausiast",
                   1000,
-                  "And I&apos;m Exploring Generative AI",
+                  "And I'm Exploring Generative AI",
                   1000,
                 ]}
                 wrapper="span"
