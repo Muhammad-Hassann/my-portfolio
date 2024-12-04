@@ -95,7 +95,7 @@ const SkillsPage = () => {
           {skillData.map((skill, index) => (
             <div
               key={index}
-              className="bg-white/10 w-[100px]  lg:w-[180px] p-4 rounded-lg flex flex-col flex-wrap items-center justify-center gap-y-2 relative group"
+              className="bg-white/10 w-[120px]  lg:w-[180px] p-4 rounded-lg flex flex-col flex-wrap items-center justify-center gap-y-2 relative group"
             >
               {/* Skill Content */}
               <div className="z-10 group-hover:opacity-0 transition-opacity duration-300">

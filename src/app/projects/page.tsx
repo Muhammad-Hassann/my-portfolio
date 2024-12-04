@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <div className=" bg-primary/30 pt-40 flex items-center md:overflow-hidden md:h-screen">
+    <div className=" bg-primary/30 pt-40 lg:pt-32 flex items-center md:overflow-hidden md:h-screen">
       <Circles />
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
