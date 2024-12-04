@@ -61,7 +61,7 @@ const skillData = [
 
 const SkillsPage = () => {
   return (
-    <div className="relative pt-28 pb-18 lg:pt-36 p-4 md:p-16  w-full h-screen bg-primary/30 text-white">
+    <div className="relative lg:pt-36 p-4 md:p-16 pt-28 pb-18 w-full md:h-screen overflow-x-hidden bg-primary/30 text-white">
       {/* Background Animation */}
       <div className="absolute inset-0">
         <motion.div
