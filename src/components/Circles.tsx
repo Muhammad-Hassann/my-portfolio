@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Circles = () => {
   return (
-    <div className="w-[200px] xl:w-[300px] absolute -right-16 -bottom-2 animate-pulse mix-blend-color-dodge z-10">
+    <div className="w-[200px] xl:w-[300px] hidden md:block absolute -right-16 -bottom-2 animate-pulse mix-blend-color-dodge z-10">
       <Image 
       src={'/circles.png'} 
       width={260} 
