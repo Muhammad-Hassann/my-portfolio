@@ -61,7 +61,7 @@ const skillData = [
 
 const SkillsPage = () => {
   return (
-    <div className="relative lg:pt-36 p-4 md:p-16 pt-28 pb-18 w-full md:h-screen overflow-x-hidden bg-primary/30 text-white">
+    <div className="relative lg:pt-36 p-4 md:p-16 pt-28 pb-28 w-full md:h-screen overflow-x-hidden bg-primary/30 text-white">
       {/* Background Animation */}
       <div className="absolute inset-0">
         <motion.div
@@ -77,7 +77,7 @@ const SkillsPage = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full  w-full flex flex-col justify-center items-center">
+      <div className="relative h-full  w-full flex flex-col justify-center items-center">
         {/* Title */}
         <div className="text-center mb-2 lg:mb-8">
           <h1 className="text-4xl lg:text-5xl font-bold">

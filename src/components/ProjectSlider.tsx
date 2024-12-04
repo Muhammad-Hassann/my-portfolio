@@ -39,8 +39,10 @@ const projectSlides = [
 const ProjectSlider = () => {
   return (
     <Swiper
-      spaceBetween={20}
-      slidesPerView={2}
+    breakpoints={{
+      320: { slidesPerView: 1, spaceBetween: 15 },
+      640: { slidesPerView: 2, spaceBetween: 20 },
+    }}
       pagination={{
         clickable: true,
       }}
@@ -50,7 +52,7 @@ const ProjectSlider = () => {
         pauseOnMouseEnter: true
       }}
       modules={[Pagination, Autoplay]}
-      className="h-[280px] sm:h-[400px]"
+      className="h-[400px]"
     >
       {projectSlides.map((slide, index) => (
         <SwiperSlide key={index}>
