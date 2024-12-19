@@ -24,7 +24,7 @@ const Header = () => {
 
             {/* Download Button */}
             <a
-              href="/MuhammadHassanResume.pdf"
+              href="/HassanDeveloper.pdf"
               download="M_Hassan_Developer.pdf"
               target="_blank"
               className=" rounded-full border border-white/50 bg-accent px-6 py-3 sm:px-8 flex lg:hidden items-center justify-center transition-all duration-300 hover:bg-transparent group text-sm sm:text-base"
